@@ -88,7 +88,7 @@ const HomePage = () => {
         {/* Hero overlay with text */}
         <div className="absolute inset-0 flex items-center">
           <div className="container mx-auto px-4">
-            <div className="max-w-md mx-auto bg-black bg-opacity-60 text-white text-center p-8 rounded">
+            <div className="max-w-md mx-auto bg-gray-800 bg-opacity-60 text-white text-center p-8 rounded"> {/*COLOR DEL CARD HOME*/}
               <h1 className="text-3xl md:text-4xl font-bold mb-4">Cooperativa Las Diosas</h1>
               <p className="mb-6">Jamaica, miel de abeja y granos básicos</p>
               <Link to="/buy-mead" className="btn-primary">Tienda</Link>

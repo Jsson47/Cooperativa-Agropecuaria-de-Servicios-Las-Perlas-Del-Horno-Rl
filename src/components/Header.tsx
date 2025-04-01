@@ -21,7 +21,7 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           <a href="tel:50578841792" className="text-sm hover:underline">50578841792</a>
           <div className="flex space-x-2">
-            <a href="https://www.facebook.com/emprendeint/" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/emprendeint/" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
               <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
               </svg>
@@ -60,14 +60,14 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-3">
-            <Link to="/" className="nav-link">HOME</Link>
-            <Link to="/buy-mead" className="nav-link">SHOP</Link>
-            <Link to="/latest-news" className="nav-link">LATEST NEWS</Link>
-            <Link to="/about-us" className="nav-link">ABOUT US</Link>
-            <Link to="/contact-us" className="nav-link">CONTACT US</Link>
-            <Link to="/mead-tasting" className="nav-link">MEAD TASTING</Link>
-            <Link to="/promotions" className="nav-link">PROMOTIONS</Link>
-            <Link to="/stay-with-us" className="nav-link">STAY WITH US</Link>
+            <Link to="/" className="nav-link">INICIO</Link>
+            <Link to="/buy-mead" className="nav-link">TIENDA</Link>
+            {/*<Link to="/latest-news" className="nav-link">LATEST NEWS</Link>*/}
+            <Link to="/about-us" className="nav-link">ACERCA DE NOSOTROS</Link>
+            <Link to="/contact-us" className="nav-link">CONTACTO</Link>
+            {/*<Link to="/mead-tasting" className="nav-link">DEGUSTACIÓN DE MIEL</Link>*/}
+            <Link to="/promotions" className="nav-link">PROMOCIONES</Link>
+            <Link to="/stay-with-us" className="nav-link">QUÉDATE CON NOSOTROS</Link>
             <Link to="/stargazing-experience" className="nav-link">STARGAZING EXPERIENCE</Link>
           </nav>
 
@@ -100,13 +100,13 @@ const Header = () => {
       {mobileMenuOpen && (
         <nav className="md:hidden bg-white border-b shadow-sm">
           <div className="container mx-auto py-3 px-4 space-y-2">
-            <Link to="/" className="block py-1 border-b border-gray-100">HOME</Link>
-            <Link to="/buy-mead" className="block py-1 border-b border-gray-100">MEAD SHOP</Link>
-            <Link to="/latest-news" className="block py-1 border-b border-gray-100">LATEST NEWS</Link>
-            <Link to="/about-us" className="block py-1 border-b border-gray-100">ABOUT US</Link>
-            <Link to="/contact-us" className="block py-1 border-b border-gray-100">CONTACT US</Link>
-            <Link to="/mead-tasting" className="block py-1 border-b border-gray-100">MEAD TASTING</Link>
-            <Link to="/promotions" className="block py-1 border-b border-gray-100">PROMOTIONS</Link>
+            <Link to="/" className="block py-1 border-b border-gray-100">INICIO</Link>
+            <Link to="/buy-mead" className="block py-1 border-b border-gray-100">TIENDA</Link>
+            {/*<Link to="/latest-news" className="block py-1 border-b border-gray-100">LATEST NEWS</Link>*/}
+            <Link to="/about-us" className="block py-1 border-b border-gray-100">ACERCA DE NOSOTROS</Link>
+            <Link to="/contact-us" className="block py-1 border-b border-gray-100">CONTACTO</Link>
+            {/*<Link to="/mead-tasting" className="block py-1 border-b border-gray-100">MEAD TASTING</Link>*/}
+            <Link to="/promotions" className="block py-1 border-b border-gray-100">PROMOCIONES</Link>
             <Link to="/stay-with-us" className="block py-1 border-b border-gray-100">STAY WITH US</Link>
             <Link to="/stargazing-experience" className="block py-1 border-b border-gray-100">STARGAZING EXPERIENCE</Link>
             <Link to="/login" className="block py-1 border-b border-gray-100">LOGIN</Link>

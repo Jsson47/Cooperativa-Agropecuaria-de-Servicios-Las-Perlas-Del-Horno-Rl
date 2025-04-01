@@ -36,7 +36,7 @@ const ContactUsPage = () => {
       {/* Hero Banner */}
       <div className="relative h-[250px] overflow-hidden">
         <img
-          src="https://ext.same-assets.com/3079580843/4206425703.jpeg"
+          src="https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2023/10/26154720/diosas1.jpg"
           alt="Hunter Valley Vineyard"
           className="w-full h-full object-cover"
         />
@@ -82,14 +82,14 @@ const ContactUsPage = () => {
             {/* Map Placeholder */}
             <div className="mt-8 h-64 bg-gray-200 flex items-center justify-center rounded">
               <div className="text-center">
-                <p className="text-gray-600 mb-2">Map would be displayed here</p>
+                <p className="text-gray-600 mb-2">El mapa se mostraría aquí</p>
                 <a
-                  href="https://www.google.com/maps/place/Honey+Wines+Australia/@-32.7456056,151.1031642,17z/"
+                  href="https://www.google.com/maps/place/Estel%C3%AD/@13.0897248,-86.3813784,6675m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8f718c42c00bc1ad:0x90de1ab352954a6f!8m2!3d13.0851139!4d-86.3630197!16zL20vMDNfMjRi?entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:underline"
                 >
-                  View on Google Maps
+                  Ver en Google Maps
                 </a>
               </div>
             </div>
@@ -175,10 +175,9 @@ const ContactUsPage = () => {
       {/* Visit Us Section */}
       <div className="bg-primary text-white py-12">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-2xl font-bold mb-4">Visit Our Meadery</h2>
+          <h2 className="text-2xl font-bold mb-4">Visítenos</h2>
           <p className="mb-6 max-w-2xl mx-auto">
-            Come visit our cellar door in the beautiful Hunter Valley.
-            Try our range of premium meads and learn about the ancient craft of mead making.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro velit provident voluptas culpa temporibus qui sit officia fugit! Ullam repellat consequatur distinctio tenetur quam iusto ducimus non ab? Quis, libero!
           </p>
           <Link to="/mead-tasting" className="inline-block border-2 border-white text-white px-6 py-2 rounded hover:bg-white hover:text-primary transition-colors">
             Book a Tasting
