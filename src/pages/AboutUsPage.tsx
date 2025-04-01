@@ -18,40 +18,30 @@ const AboutUsPage = () => {
       {/* Main Content */}
       <div className="container mx-auto py-12 px-4">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold mb-6">HONEY WINES AUSTRALIA MEADERY</h2>
+          <h2 className="text-3xl font-bold mb-6">JAMAICA HONEY AND GRAINS BASIC</h2>
 
           <div className="space-y-6">
             <p>
-              We are an Australian meadery based in the Hunter Valley Region of NSW.
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.            </p>
+
+            <p>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
             </p>
 
             <p>
-              Before starting Honey Wines Australia Meadery, we had been home brewing
-              mead for over 10 years and beekeeping for 5 years. The honey we use is
-              raw untreated honey produced from our own hives placed locally in the Hunter Region.
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
             </p>
 
             <p>
-              We sell mead both wholesale and direct to the public through our online store.
-              We also sell a wide range of Viking related merchandise such as drinking horns
-              as we all know Viking products go hand in hand with mead.
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
             </p>
 
             <p>
-              In July 2022 we have moved to the Broke NSW wine region of the Hunter Valley
-              to open a shop front/cellar door.
-            </p>
-
-            <p>
-              EDIT* Since Oct 2022 our beehives were euthanised with the varroa outbreak
-              in the Hunter Region. Will start beekeeping again one day but will source
-              honey from other local beekeepers outside the quarantine zone for the time
-              being, however we will ensure any outsourced honey meets our specifications
-              of quality and being raw and not heat treated.
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
             </p>
 
             <p className="text-gray-600">
-              ABN: 58 685 728 412
+              ABC: Lorem
             </p>
           </div>
 
