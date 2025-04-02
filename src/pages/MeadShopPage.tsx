@@ -12,66 +12,66 @@ interface Product {
 
 const products: Product[] = [
   {
-    id: "dragon-drinking-horn-mug",
-    name: "Dragon Drinking Horn Mug",
-    price: "$65.00",
-    image: "https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2024/01/30192011/IMG-20240130-WA0040.jpg",
-    category: "Drinking Horns"
+    id: "jamaica-hibiscus-tea",
+    name: "Jamaica Hibiscus Tea",
+    price: "C$65.00",
+    image: "https://www.el19digital.com/files/notas/source/2022/Junio/07Jun/esteli/COOPERATIVA_4.jpg",
+    category: "Bebidas"
   },
   {
-    id: "limited-edition-pepsi-max-mead-750ml",
-    name: "Limited Edition Pepsi Max Mead 750ml",
-    price: "$40.00",
-    image: "https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2024/01/30192011/IMG-20240130-WA0040.jpg",
-    category: "Mead"
+    id: "honey-infused-sorghum",
+    name: "Honey-Infused Sorghum",
+    price: "C$40.00",
+    image: "https://www.el19digital.com/files/notas/source/2022/Junio/07Jun/esteli/COOPERATIVA_4.jpg",
+    category: "Miel"
   },
   {
-    id: "hunter-valley-mead",
-    name: "Hunter Valley Mead (Traditional/Plain)",
-    price: "$40.00",
-    image: "https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2024/01/30192011/IMG-20240130-WA0040.jpg",
+    id: "spiced-jamaica-ade",
+    name: "Spiced Jamaica Ade",
+    price: "C$40.00",
+    image: "https://www.el19digital.com/files/notas/source/2022/Junio/07Jun/esteli/COOPERATIVA_4.jpg",
     rating: 4.78,
-    category: "Mead"
+    category: "Bebidas"
   },
   {
-    id: "health-potion-mead",
-    name: "Health Potion Mead (Chilli & Cherry)",
-    price: "$40.00",
-    image: "https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2024/01/30192011/IMG-20240130-WA0040.jpg",
+    id: "golden-corn-honey-bread",
+    name: "Golden Corn & Honey Bread",
+    price: "C$40.00",
+    image: "https://www.el19digital.com/files/notas/source/2022/Junio/07Jun/esteli/COOPERATIVA_4.jpg",
     rating: 4.89,
-    category: "Mead"
+    category: "Miel"
   },
   {
-    id: "mana-potion-mead",
-    name: "Mana Potion Mead (Mixed Fruits)",
-    price: "$40.00",
-    image: "https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2024/01/30192011/IMG-20240130-WA0040.jpg",
+    id: "jamaica-mint-cooler",
+    name: "Jamaica Mint Cooler",
+    price: "C$40.00",
+    image: "https://www.el19digital.com/files/notas/source/2022/Junio/07Jun/esteli/COOPERATIVA_4.jpg",
     rating: 4.76,
-    category: "Mead"
+    category: "Bebidas"
   },
   {
-    id: "haste-potion-mead",
-    name: "Haste Potion Mead (Coffee)",
-    price: "$40.00",
-    image: "https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2024/01/30192011/IMG-20240130-WA0040.jpg",
+    id: "honeyed-quinoa-bowl",
+    name: "Honeyed Quinoa Bowl",
+    price: "C$40.00",
+    image: "https://www.el19digital.com/files/notas/source/2022/Junio/07Jun/esteli/COOPERATIVA_4.jpg",
     rating: 5.0,
-    category: "Mead"
+    category: "Granos Básicos"
   },
   {
-    id: "vanilla-mead-750ml",
-    name: "Potion of Invisibility (Vanilla Bean)",
-    price: "$40.00",
-    image: "https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2024/01/30192011/IMG-20240130-WA0040.jpg",
+    id: "roasted-barley-honey-tea",
+    name: "Roasted Barley Honey Tea",
+    price: "C$40.00",
+    image: "https://www.el19digital.com/files/notas/source/2022/Junio/07Jun/esteli/COOPERATIVA_4.jpg",
     rating: 4.5,
-    category: "Mead"
+    category: "Miel"
   },
   {
-    id: "stamina-potion-mead",
-    name: "Stamina Potion Mead (Lemon & Lime)",
-    price: "$40.00",
-    image: "https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2024/01/30192011/IMG-20240130-WA0040.jpg",
+    id: "jamaica-spice-granola",
+    name: "Jamaica Spice Granola",
+    price: "C$40.00",
+    image: "https://www.el19digital.com/files/notas/source/2022/Junio/07Jun/esteli/COOPERATIVA_4.jpg",
     rating: 4.81,
-    category: "Mead"
+    category: "Bebidas"
   }
 ];
 
@@ -137,12 +137,11 @@ const MeadShopPage = () => {
   const [selectedCategory, setSelectedCategory] = useState('');
 
   const categories = [
-    "Drinking Horns",
-    "Honey Products",
-    "Honey Skincare",
-    "Mead",
-    "Spirits",
-    "Viking Merchandise"
+    "Bebidas",
+    "Productos de Miel",
+    "Miel",
+    "Granos Básicos",
+    "Productos"
   ];
 
   // Filter products based on search and category
@@ -158,11 +157,11 @@ const MeadShopPage = () => {
         {/* Page header with breadcrumbs */}
         <div className="mb-6">
           <div className="text-sm breadcrumbs mb-2">
-            <Link to="/" className="hover:text-primary">Home</Link> / Mead Shop
+            <Link to="/" className="hover:text-primary">Inicio</Link> / Tienda
           </div>
-          <h1 className="text-2xl md:text-3xl font-bold">Mead Shop</h1>
+          <h1 className="text-2xl md:text-3xl font-bold">Tienda</h1>
           <div className="text-sm text-gray-600 mt-2">
-            Showing 1-{filteredProducts.length} of {products.length} results
+          Mostrando  1-{filteredProducts.length} de {products.length} resultados
           </div>
         </div>
 
@@ -170,7 +169,7 @@ const MeadShopPage = () => {
           {/* Sidebar with filters */}
           <div className="lg:col-span-1">
             <div className="border rounded p-4 mb-6">
-              <h2 className="font-semibold mb-3">Search</h2>
+              <h2 className="font-semibold mb-3">Busqueda</h2>
               <div className="relative">
                 <input
                   type="text"
@@ -191,14 +190,14 @@ const MeadShopPage = () => {
             </div>
 
             <div className="border rounded p-4">
-              <h2 className="font-semibold mb-3">Product Categories</h2>
+              <h2 className="font-semibold mb-3">Categorías de productos</h2>
               <ul className="space-y-2">
                 <li>
                   <button
                     className={`text-left w-full hover:text-primary ${selectedCategory === '' ? 'text-primary font-medium' : ''}`}
                     onClick={() => setSelectedCategory('')}
                   >
-                    All Categories
+                    Todas las categorías
                   </button>
                 </li>
                 {categories.map(category => (
@@ -219,7 +218,7 @@ const MeadShopPage = () => {
           <div className="lg:col-span-3">
             {filteredProducts.length === 0 ? (
               <div className="text-center py-12">
-                <p className="text-gray-500">No products found matching your criteria.</p>
+                <p className="text-gray-500">No se han encontrado productos que coincidan con sus criterios.</p>
               </div>
             ) : (
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -234,8 +233,8 @@ const MeadShopPage = () => {
         {/* Our Range Section */}
         <div className="mt-16 border-t pt-12">
           <div className="text-center mb-8">
-            <h2 className="text-2xl font-bold">Our Range of Premium Meads</h2>
-            <p className="mt-2 text-gray-600">You have found where to buy mead - a very unique range of mead!</p>
+            <h2 className="text-2xl font-bold">Nuestra gama de mieles premium</h2>
+            <p className="mt-2 text-gray-600">Ha encontrado dónde comprar miel: ¡una gama única de miel!</p>
           </div>
 
           {/* Featured product image */}
@@ -249,19 +248,13 @@ const MeadShopPage = () => {
 
           {/* Honey Wine Delivery Section */}
           <div className="mt-12">
-            <h2 className="text-2xl font-bold mb-4">Honey Wine Delivery</h2>
+            <h2 className="text-2xl font-bold mb-4">Entrega de Jamaica, miel y granos básicos</h2>
             <div className="max-w-3xl">
               <p className="mb-4">
-                What we love about mead is the near limitless possible flavour combinations when brewing,
-                in addition to adding fruits or spices to the brew there are so many different honey varieties
-                depending on the trees the bees collect nectar from. Honey Wines Australia Meadery uses a lot
-                of mangrove honey from our Lake Macquarie hives however we also have hives in the vineyards of
-                the Hunter Valley wine region that we are looking forward to tasting the honey from. Without
-                being boastful, when I give honey tastings at the end of my beekeeping classes, hearing "that's
-                the best honey I've ever tasted!" is not uncommon at all.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi alias officiis quisquam? Provident maxime enim voluptates magni nihil debitis labore ex voluptate cumque, quos officiis eveniet, repellat ipsa, nobis assumenda.
               </p>
               <p>
-                Honey Wines Australia are also mead wholesalers and we're always on the lookout for distributors.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis odit ipsam pariatur molestias, voluptas minus, quasi quia consequuntur dolorum modi quos iure officia, hic ipsa adipisci repellat qui laudantium temporibus?
               </p>
             </div>
           </div>

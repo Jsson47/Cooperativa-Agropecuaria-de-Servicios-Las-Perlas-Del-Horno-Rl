@@ -50,7 +50,7 @@ const ProductCard = ({
           />
         </div>
         <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-opacity flex items-center justify-center opacity-0 group-hover:opacity-100">
-          <span className="bg-white text-dark px-3 py-1 rounded text-sm font-medium">Quick View</span>
+          <span className="bg-white text-dark px-3 py-1 rounded text-sm font-medium">Vista rápida</span>
         </div>
       </Link>
       <div className="text-center">
@@ -123,7 +123,7 @@ const HomePage = () => {
             {/* Granos Básicos */}
             <div className="bg-secondary text-center p-8">
               <h2 className="text-white text-2xl font-bold mb-4">Granos Básicos</h2>
-              <Link to="/buy-mead" className="inline-block border border-white text-white px-4 py-2 hover:bg-white hover:text-dark transition-colors">Shop now</Link>
+              <Link to="/buy-mead" className="inline-block border border-white text-white px-4 py-2 hover:bg-white hover:text-dark transition-colors">Comprar ahora</Link>
             </div>
           </div>
         </div>
@@ -132,7 +132,7 @@ const HomePage = () => {
       {/* Meadery Info Section */}
       <section className="py-12 bg-gray-100">
         <div className="container mx-auto px-4">
-          <h2 className="section-title">Jamaica Honey Grains Basic</h2>
+          <h2 className="section-title">Jamaica, miel granos básicos</h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-center mb-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -150,20 +150,17 @@ const HomePage = () => {
       {/* Is Mead Healthy Section */}
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="section-title">Is Honey Healthy?</h2>
+          <h2 className="section-title">¿Es sana la miel?</h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-center mb-6">
-              We don't claim any alcohol is healthy, however it is known honey has health benefits.
-              Some of the <strong>vitamins</strong> found in <strong>honey</strong> include ascorbic acid,
-              pantothenic acid, niacin and riboflavin; along with minerals such as calcium, copper,
-              iron, magnesium, manganese, phosphorus, potassium and zinc.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, sunt placeat! Voluptate nemo tempore necessitatibus  nobis! <strong>vitamins</strong> found in <strong>honey</strong> Lorem ipsum dolor sitvoluptates perspiciatis consequatur.
             </p>
             <p className="text-center mb-8">
-              Therefore we can safely state mead is <em>healthier</em> than most other forms of alcohol.
+              Lorem, ipsum dolor sit amet consectetur <em>healthier</em> Lorem ipsum perferendis dolorem.
             </p>
             <div className="flex justify-center space-x-4">
-              <Link to="/about-us" className="btn-secondary">About us</Link>
-              <Link to="/buy-mead" className="btn-primary">Shop</Link>
+              <Link to="/about-us" className="btn-secondary">Quiénes somos</Link>
+              <Link to="/buy-mead" className="btn-primary">Tienda</Link>
             </div>
           </div>
         </div>
@@ -175,7 +172,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Column 1 */}
             <div>
-              <h3 className="subtitle">How Is Our Meadery Different?</h3>
+              <h3 className="subtitle">¿En qué se diferencia nuestra fábrica de miel?</h3>
               <p className="mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
@@ -186,37 +183,27 @@ const HomePage = () => {
 
             {/* Column 2 */}
             <div>
-              <h3 className="subtitle">Supreme Value Mead</h3>
+              <h3 className="subtitle">Miel de valor supremo</h3>
               <p className="mb-4">
-                Honey Wines Australia are one of the very few commercial meaderies in
-                Australia selling mead in <strong>750ml</strong> bottles instead of 375 or 500ml.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi optio a quod nemo blanditiis porro recusandae ipsa cumque nulla asperiores <strong>explicabo magni</strong> ad tenetur, voluptatem nam possimus, error <strong>excepturi</strong> doloribus.
               </p>
               <p>
-                Next time you're about to buy, scale up the price to what it would be if
-                it were a standard 750ml wine bottle size and see if you still think it's
-                a good price. To calculate this divide the price by the volume then multiply
-                by 750, for example $ ml x 750.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ad voluptatum dolorum ducimus maiores sint officiis similique, excepturi libero vero aperiam, asperiores, laborum praesentium reiciendis at animi placeat perspiciatis eum.
               </p>
             </div>
 
             {/* Column 3 */}
             <div>
-              <h3 className="subtitle">Why Honey Wines? Why Not Mead?</h3>
+              <h3 className="subtitle">¿Por qué miel? </h3>
               <p className="mb-4">
-                But wine is made with grapes, mead is made with honey!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nam repudiandae earum vitae commodi fuga, illum eligendi? Quibusdam quia ea veniam, tenetur iste asperiores aliquam perferendis ullam, provident eligendi atque!
               </p>
               <p className="mb-4">
-                Well, two reasons, firstly, according to the Emperor of mead the terms are
-                interchangeable*.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugit maiores repellat nesciunt, quas minus velit id ad, unde odio necessitatibus, recusandae omnis placeat fuga tempora et praesentium ab eligendi.
               </p>
               <p className="text-sm italic mb-4">
-                * Schramm, Ken (2003). The Compleat Meadmaker: Home Production of Honey Wine
-                From Your First Batch to Award-winning Fruit and Herb Variations.
-              </p>
-              <p>
-                The second reason is... Marketing, we've found not enough people know what
-                mead is but they are smart enough to connect honey and wines.
-              </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates aliquam ad id consequatur obcaecati cumque, velit officia ut pariatur veniam quasi, possimus autem adipisci quos! Magni minus voluptatibus cumque?
+              </p>              
             </div>
           </div>
         </div>
@@ -225,37 +212,37 @@ const HomePage = () => {
       {/* Product Showcase */}
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="section-title mb-8">Browse Jamaica, Wine & Grains Basic</h2>
+          <h2 className="section-title mb-8">Examinar Jamaica, Miel y Granos Básicos</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             <ProductCard
-              image="https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2024/01/30192011/IMG-20240130-WA0040.jpg"
-              title="Dragon Drinking Horn Mug"
-              price="$65.00"
-              link="/product/dragon-drinking-horn-mug"
+              image="https://www.el19digital.com/files/notas/source/2022/Junio/07Jun/esteli/COOPERATIVA_4.jpg"
+              title="Jamaica Hibiscus Tea"
+              price="C$65.00"
+              link="/product/jamaica-hibiscus-tea"
             />
             <ProductCard
-              image="https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2024/01/30192011/IMG-20240130-WA0040.jpg"
-              title="Limited Edition Pepsi Max Mead 750ml"
-              price="$40.00"
-              link="/product/limited-edition-pepsi-max-mead-750ml"
+              image="https://www.el19digital.com/files/notas/source/2022/Junio/07Jun/esteli/COOPERATIVA_4.jpg"
+              title="Honey-Infused Sorghum"
+              price="C$40.00"
+              link="/product/honey-infused-sorghum"
             />
             <ProductCard
-              image="https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2024/01/30192011/IMG-20240130-WA0040.jpg"
-              title="Haste Potion Mead (Coffee)"
-              price="$40.00"
+              image="https://www.el19digital.com/files/notas/source/2022/Junio/07Jun/esteli/COOPERATIVA_4.jpg"
+              title="Spiced Jamaica Ade"
+              price="C$40.00"
               rating={5}
-              link="/product/haste-potion-mead"
+              link="/product/spiced-jamaica-ade"
             />
             <ProductCard
-              image="https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2024/01/30192011/IMG-20240130-WA0040.jpg"
-              title="Health Potion Mead (Chilli & Cherry)"
-              price="$40.00"
+              image="https://www.el19digital.com/files/notas/source/2022/Junio/07Jun/esteli/COOPERATIVA_4.jpg"
+              title="Golden Corn & Honey Bread"
+              price="C$40.00"
               rating={4.89}
-              link="/product/health-potion-mead"
+              link="/product/golden-corn-honey-bread"
             />
           </div>
           <div className="text-center mt-8">
-            <Link to="/buy-mead" className="btn-primary">View all products</Link>
+            <Link to="/buy-mead" className="btn-primary">Ver todos los productos</Link>
           </div>
         </div>
       </section>
@@ -263,8 +250,8 @@ const HomePage = () => {
       {/* Newsletter Section */}
       <section className="py-12 bg-black text-white relative">
         <div className="container mx-auto px-4 relative z-10">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center">Subscribe to our newsletter</h2>
-          <p className="text-center mb-6">Be the first to know about our promotions and discounts!</p>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-center">Suscríbase a nuestro boletín de noticias</h2>
+          <p className="text-center mb-6">Sea el primero en conocer nuestras promociones y descuentos.</p>
 
           <form className="max-w-xl mx-auto flex flex-col sm:flex-row gap-3">
             <input

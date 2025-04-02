@@ -7,11 +7,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company info */}
           <div>
-            <h3 className="text-lg font-bold uppercase mb-4">Jamaica Honey Grains Basic</h3>
+            <h3 className="text-lg font-bold uppercase mb-4">Jamaica, Miel, Granos Básicos</h3>
             <div className="mb-4">
               <img
                 src="https://www.unan.edu.ni/wp-content/uploads/unan-managua-marca-institucional-2904202002.jpg"
-                alt="Honey Wines Australia Logo"
+                alt="Honey Logo"
                 className="h-20"
               />
             </div>
@@ -29,17 +29,17 @@ const Footer = () => {
 
           {/* Featured products */}
           <div>
-            <h3 className="text-lg font-bold uppercase mb-4">Featured Products</h3>
+            <h3 className="text-lg font-bold uppercase mb-4">Productos destacados</h3>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <img
-                  src="https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2024/01/30192011/IMG-20240130-WA0040.jpg"
+                  src="https://www.el19digital.com/files/notas/source/2022/Junio/07Jun/esteli/COOPERATIVA_4.jpg"
                   alt="Haste Potion"
                   className="w-10 h-10 object-cover rounded"
                 />
                 <div>
                   <Link to="/product/haste-potion" className="text-white hover:text-primary text-sm">
-                    Haste Potion Mead (Coffee)
+                  Jamaica Hibiscus Tea
                   </Link>
                   <div className="flex items-center mt-1">
                     <div className="flex">
@@ -49,19 +49,19 @@ const Footer = () => {
                         </svg>
                       ))}
                     </div>
-                    <span className="text-xs ml-1">$40.00</span>
+                    <span className="text-xs ml-1">C$40.00</span>
                   </div>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <img
-                  src="https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2024/01/30192011/IMG-20240130-WA0040.jpg"
+                  src="https://www.el19digital.com/files/notas/source/2022/Junio/07Jun/esteli/COOPERATIVA_4.jpg"
                   alt="Health Potion"
                   className="w-10 h-10 object-cover rounded"
                 />
                 <div>
                   <Link to="/product/health-potion" className="text-white hover:text-primary text-sm">
-                    Health Potion Mead (Chilli & Cherry)
+                  Honey-Infused Sorghum
                   </Link>
                   <div className="flex items-center mt-1">
                     <div className="flex">
@@ -71,23 +71,23 @@ const Footer = () => {
                         </svg>
                       ))}
                     </div>
-                    <span className="text-xs ml-1">$40.00</span>
+                    <span className="text-xs ml-1">C$40.00</span>
                   </div>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <img
-                  src="https://radiolaprimerisima.s3.amazonaws.com/wp-content/uploads/2024/01/30192011/IMG-20240130-WA0040.jpg"
+                  src="https://www.el19digital.com/files/notas/source/2022/Junio/07Jun/esteli/COOPERATIVA_4.jpg"
                   alt="Dragon Knife"
                   className="w-10 h-10 object-cover rounded"
                 />
                 <div>
                   <Link to="/product/dragon-knife" className="text-white hover:text-primary text-sm">
-                    Skyrim Dragon Engraved Camel Bone Knife
+                  Spiced Jamaica Ade
                   </Link>
                   <div className="text-xs mt-1">
-                    <span className="line-through">$150.00</span>
-                    <span className="ml-1">$135.00</span>
+                    <span className="line-through">C$150.00</span>
+                    <span className="ml-1">C$135.00</span>
                   </div>
                 </div>
               </div>
@@ -113,15 +113,15 @@ const Footer = () => {
         {/* Navigation links */}
         <div className="mt-8 pt-6 border-t border-gray-800">
           <ul className="grid grid-cols-2 md:grid-cols-4 gap-2">
-            <li><Link to="/" className="text-sm hover:text-primary">Home</Link></li>
-            <li><Link to="/buy-mead" className="text-sm hover:text-primary">Shop</Link></li>
-            <li><Link to="/latest-news" className="text-sm hover:text-primary">Latest News</Link></li>
-            <li><Link to="/about-us" className="text-sm hover:text-primary">About Us</Link></li>
-            <li><Link to="/contact-us" className="text-sm hover:text-primary">Contact Us</Link></li>
-            <li><Link to="/mead-tasting" className="text-sm hover:text-primary">Honey Tasting</Link></li>
-            <li><Link to="/promotions" className="text-sm hover:text-primary">Promotions</Link></li>
-            <li><Link to="/stay-with-us" className="text-sm hover:text-primary">Stay With Us</Link></li>
-            <li><Link to="/stargazing-experience" className="text-sm hover:text-primary">Stargazing Experience</Link></li>
+            <li><Link to="/" className="text-sm hover:text-primary">Inicio</Link></li>
+            <li><Link to="/buy-mead" className="text-sm hover:text-primary">Tienda</Link></li>
+            <li><Link to="/latest-news" className="text-sm hover:text-primary">Últimas noticias</Link></li>
+            <li><Link to="/about-us" className="text-sm hover:text-primary">Quiénes somos</Link></li>
+            <li><Link to="/contact-us" className="text-sm hover:text-primary">Contacto</Link></li>
+            <li><Link to="/mead-tasting" className="text-sm hover:text-primary">Degustación</Link></li>
+            <li><Link to="/promotions" className="text-sm hover:text-primary">Promociones</Link></li>
+            <li><Link to="/stay-with-us" className="text-sm hover:text-primary">Quédate con nosotros</Link></li>
+            <li><Link to="/stargazing-experience" className="text-sm hover:text-primary">OBSERVACIÓN DE ESTRELLAS</Link></li>
           </ul>
         </div>
 

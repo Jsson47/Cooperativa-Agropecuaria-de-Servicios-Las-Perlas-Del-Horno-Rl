@@ -60,15 +60,15 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-3">
-            <Link to="/" className="nav-link">INICIO</Link>
-            <Link to="/buy-mead" className="nav-link">TIENDA</Link>
+            <Link to="/" className="nav-link">Inicio</Link>
+            <Link to="/buy-mead" className="nav-link">Tienda</Link>
             {/*<Link to="/latest-news" className="nav-link">LATEST NEWS</Link>*/}
-            <Link to="/about-us" className="nav-link">ACERCA DE NOSOTROS</Link>
-            <Link to="/contact-us" className="nav-link">CONTACTO</Link>
+            <Link to="/about-us" className="nav-link">Acerca de Nosotros</Link>
+            <Link to="/contact-us" className="nav-link">Contacto</Link>
             {/*<Link to="/mead-tasting" className="nav-link">DEGUSTACIÓN DE MIEL</Link>*/}
-            <Link to="/promotions" className="nav-link">PROMOCIONES</Link>
-            <Link to="/stay-with-us" className="nav-link">QUÉDATE CON NOSOTROS</Link>
-            <Link to="/stargazing-experience" className="nav-link">STARGAZING EXPERIENCE</Link>
+            <Link to="/promotions" className="nav-link">Promociones</Link>
+            <Link to="/stay-with-us" className="nav-link">Quédate con nosotros</Link>
+            <Link to="/stargazing-experience" className="nav-link">Experiencia</Link>
           </nav>
 
           {/* Right side items */}
@@ -100,15 +100,15 @@ const Header = () => {
       {mobileMenuOpen && (
         <nav className="md:hidden bg-white border-b shadow-sm">
           <div className="container mx-auto py-3 px-4 space-y-2">
-            <Link to="/" className="block py-1 border-b border-gray-100">INICIO</Link>
-            <Link to="/buy-mead" className="block py-1 border-b border-gray-100">TIENDA</Link>
+            <Link to="/" className="block py-1 border-b border-gray-100">Inicio</Link>
+            <Link to="/buy-mead" className="block py-1 border-b border-gray-100">Tineda</Link>
             {/*<Link to="/latest-news" className="block py-1 border-b border-gray-100">LATEST NEWS</Link>*/}
-            <Link to="/about-us" className="block py-1 border-b border-gray-100">ACERCA DE NOSOTROS</Link>
-            <Link to="/contact-us" className="block py-1 border-b border-gray-100">CONTACTO</Link>
+            <Link to="/about-us" className="block py-1 border-b border-gray-100">Acerca de Nosotros</Link>
+            <Link to="/contact-us" className="block py-1 border-b border-gray-100">Contacto</Link>
             {/*<Link to="/mead-tasting" className="block py-1 border-b border-gray-100">MEAD TASTING</Link>*/}
-            <Link to="/promotions" className="block py-1 border-b border-gray-100">PROMOCIONES</Link>
-            <Link to="/stay-with-us" className="block py-1 border-b border-gray-100">STAY WITH US</Link>
-            <Link to="/stargazing-experience" className="block py-1 border-b border-gray-100">STARGAZING EXPERIENCE</Link>
+            <Link to="/promotions" className="block py-1 border-b border-gray-100">Promociones</Link>
+            <Link to="/stay-with-us" className="block py-1 border-b border-gray-100">Quédate con nosotros</Link>
+            <Link to="/stargazing-experience" className="block py-1 border-b border-gray-100">Experiencia</Link>
             <Link to="/login" className="block py-1 border-b border-gray-100">LOGIN</Link>
             <Link to="/cart" className="block py-1">CART / $0.00 (0)</Link>
           </div>
