@@ -17,7 +17,7 @@ const Header = () => {
     <header className="w-full">
       {/* Top bar */}
       <div className="bg-primary text-white py-1 px-4 flex justify-between items-center">
-        <div className="text-sm font-medium">Jamaica, Miel, Granos Básicos</div>
+        <div className="text-sm font-medium">Cooperativa Agropecuaria de Servicios Las Perlas Del Horno R.L.</div>
         <div className="flex items-center space-x-4">
           <a href="tel:50578841792" className="text-sm hover:underline">50578841792</a>
           <div className="flex space-x-2">
